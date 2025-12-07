@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Copy head from index.html -->
+    <title>Projects - Mattia Russo</title>
+</head>
+<body>
+    <header-component></header-component>
+    
+    <div class="container mt-4">
+        <h1 class="mb-4">MSc Module Projects</h1>
+        
+        <!-- Module Filter Tabs -->
+        <ul class="nav nav-tabs mb-4" id="moduleTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="module1-tab" data-toggle="tab" href="#module1">Module 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="module2-tab" data-toggle="tab" href="#module2">Module 2</a>
+            </li>
+            <!-- Add tabs for Modules 3-6 and Other -->
+        </ul>
+        
+        <!-- Module Content -->
+        <div class="tab-content" id="moduleTabContent">
+            <div class="tab-pane fade show active" id="module1">
+                <h3>Module 1: [Module Name]</h3>
+                <div class="row">
+                    <!-- Project Cards for Module 1 -->
+                    <div class="col-md-6 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Project Title</h5>
+                                <p class="card-text">Project description...</p>
+                                <a href="/projects/module1/project1.html" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more projects -->
+                </div>
+            </div>
+            
+            <!-- Repeat for other modules -->
+        </div>
+    </div>
+    
+    <footer-component></footer-component>
+    
+    <script src="/components/header.js"></script>
+    <script src="/components/footer.js"></script>
+</body>
+</html>
